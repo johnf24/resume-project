@@ -36,7 +36,7 @@ var work = {
         "employer": "Independent Contractor",
         "location": "Atlanta, GA",
         "title": "Front End Developer",
-        "dates": "January 2017 - Present",
+        "dates": "January 2017 - June 2017",
         "description": "Collaborated with a development team and contributed to an interactive web app using Node.js, Angular, Typescript and Sass."
     }]
 };
@@ -132,8 +132,8 @@ education.display = function() {
         var formattedMajor = HTMLschoolMajor.replace("%data%", education.schools[i].majors);
         $(".education-entry:last").append(formattedMajor);
 
-        var formattedMajor = HTMLschoolMajor.replace("%data%", education.onlineCourses[i].url);
-        $(".education-entry:last").append(formattedMajor);
+        var formattedURL = HTMLschoolURL.replace("%data%", education.schools[i].url);
+        $(".education-entry:last").append(formattedURL);
     }
 
     for (var l = 0; l < education.onlineCourses.length; l++) {
@@ -152,8 +152,8 @@ education.display = function() {
         var formattedMajor = HTMLschoolMajor.replace("%data%", education.onlineCourses[l].title);
         $(".education-entry:last").append(formattedMajor);
 
-        var formattedMajor = HTMLschoolMajor.replace("%data%", education.onlineCourses[l].url);
-        $(".education-entry:last").append(formattedMajor);
+        var formattedURL = HTMLschoolURL.replace("%data%", education.onlineCourses[l].url);
+        $(".education-entry:last").append(formattedURL);
     }
 };
 
