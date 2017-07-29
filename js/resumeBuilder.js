@@ -1,15 +1,15 @@
 var bio = {
     "name": "John Fox",
-    "role": "Web Developer",
+    "role": "Software Developer",
     "biopic": "images/two.jpg",
     "contacts": {
         "mobile": "N/A",
-        "email": "foxclimb@aol.com",
+        "email": "john.fox@workmail.com",
         "github": "github.com/johnf24",
         "location": "Atlanta"
     },
     "welcomeMessage": "Welcome To My Resume",
-    "skills": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "JQuery"]
+    "skills": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "JQuery", "TypeScript", "Angular", "Python"]
 };
 
 var education = {
@@ -35,7 +35,7 @@ var work = {
     "jobs": [{
         "employer": "Independent Contractor",
         "location": "Atlanta, GA",
-        "title": "Front End Developer",
+        "title": "Web Developer",
         "dates": "January 2017 - June 2017",
         "description": "Collaborated with a development team and contributed to an interactive web app using Node.js, Angular, Typescript and Sass."
     }]
@@ -77,6 +77,12 @@ var projects = {
             "dates": "2016",
             "description": "Completed a test suite for a web-based application.",
             "images": ["images/eight.jpg"]
+        },
+        {
+            "title": "Item Catalog",
+            "dates": "2017",
+            "description": "A dynamic application that provides a list of items with user registration and authentication.",
+            "images": ["images/nine.jpg"]
         }
     ]
 };
