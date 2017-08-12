@@ -9,7 +9,7 @@ var bio = {
         "location": "Atlanta"
     },
     "welcomeMessage": "Welcome To My Resume",
-    "skills": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "JQuery", "TypeScript", "Angular", "Python"]
+    "skills": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "JQuery", "TypeScript", "Angular", "Python", "SQL"]
 };
 
 var education = {
@@ -33,9 +33,9 @@ var education = {
 
 var work = {
     "jobs": [{
-        "employer": "Independent Contractor",
+        "employer": "12 Stone Church",
         "location": "Atlanta, GA",
-        "title": "Web Developer",
+        "title": "Contract Web Developer",
         "dates": "January 2017 - June 2017",
         "description": "Collaborated with a development team and contributed to an interactive web app using Node.js, Angular, Typescript and Sass."
     }]
@@ -83,6 +83,12 @@ var projects = {
             "dates": "2017",
             "description": "A dynamic application that provides a list of items with user registration and authentication.",
             "images": ["images/nine.jpg"]
+        },
+        {
+            "title": "Logs Analysis",
+            "dates": "2017",
+            "description": "Analyses data from the logs of a web service to answer questions using advanced SQL queries.",
+            "images": ["images/ten.jpg"]
         }
     ]
 };
