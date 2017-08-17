@@ -79,9 +79,9 @@ var projects = {
             "images": ["images/eight.jpg"]
         },
         {
-            "title": "Item Catalog",
+            "title": "Movie Trailer Website",
             "dates": "2017",
-            "description": "A dynamic application that provides a list of items with user registration and authentication.",
+            "description": "Server side code that stores a list of movies and is served to a web page allowing visitors to review movies.",
             "images": ["images/nine.jpg"]
         },
         {
@@ -89,6 +89,12 @@ var projects = {
             "dates": "2017",
             "description": "Analyses data from the logs of a web service to answer questions using advanced SQL queries.",
             "images": ["images/ten.jpg"]
+        },
+        {
+            "title": "Item Catalog",
+            "dates": "2017",
+            "description": "A dynamic application that provides a list of items with user registration and authentication.",
+            "images": ["images/eleven.jpg"]
         }
     ]
 };
