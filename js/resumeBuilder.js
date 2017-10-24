@@ -25,8 +25,8 @@ var education = {
             "school": "Udacity",
             "location": "Online",
             "degree": "Nanodegree",
-            "title": "Front-End Web Development",
-            "dates": "2016",
+            "title": "Front End Web Development, Full Stack Web Development",
+            "dates": "2016 - 2017",
             "url": "http://www.udacity.com"
         }]
 };
@@ -37,7 +37,7 @@ var work = {
         "location": "Atlanta, GA",
         "title": "Contract Web Developer",
         "dates": "January 2017 - June 2017",
-        "description": "Collaborated with a development team and contributed to an interactive web app using Node.js, Angular, Typescript and Sass."
+        "description": "Collaborated with a development team and contributed to an interactive web app using Node.js, Angular, Typescript and SCSS."
     }]
 };
 
@@ -95,6 +95,12 @@ var projects = {
             "dates": "2017",
             "description": "A dynamic application that provides a list of items with user registration and authentication.",
             "images": ["images/eleven.jpg"]
+        },
+        {
+            "title": "Linux Server Configuration",
+            "dates": "2017",
+            "description": "A Linux distribution that securly hosts web applications from a fully configured web and database server.",
+            "images": ["images/twelve.jpg"]
         }
     ]
 };
